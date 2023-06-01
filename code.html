@@ -62,7 +62,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" target="_blank" href="#">Git Repo</a>
+              <a class="nav-link" target="_blank" href="https://github.com/mlsherman/1Hundred">Git Repo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" target="_blank" href="#">About</a>
@@ -151,11 +151,25 @@
               </pre>
           </div>
           <div class="col-lg-4">
-            <p>The Code is structured in one function.</p>
-            <h5>Hello World</h5>
+            <p>The Code is structured in multiple functions.</p>
+            <h5>getValues</h5>
             <p>
-              Hello World is a function that displays an alert with a message of
-              "Hello World"
+              getValues is a function that gets (by "getElementById") the starting and ending values from the document coded in the index.html page.
+            </p>
+            <p>
+              The function uses "parseInt" parse the numbers into integers ensuring the values are integers.
+            </p>
+            <p>
+              An if/else statement uses a boolean check to verify the integers, with an error check statement if the numbers are not integers in the else statement.
+            </p>
+            <h5>generateNumbers</h5>
+            <p>
+              The generateNumbers function has two parameters, sValue and eValue. This logic function is going to generate our numbers for the app. It has an empty numbers array that awaits numbers being input from the funciton.
+              The for loop will run through all of our numbers and the "numbers.push" will push the numbers from the loop into the array.
+            </p>
+            <h5>displayNumbers</h5>
+            <p>
+              This function has one parameter (numbers). It displays our numbers and assigns either a bold or regular font via css to our numbers after it has ran an odd or even check.
             </p>
           </div>
         </div>
@@ -186,17 +200,17 @@
           >
             <div class="row">
               <div class="col social">
-                <a href="#" target="_blank"
+                <a href="https://www.linkedin.com/feed/" target="_blank"
                   ><i class="fab fa-linkedin fa-2x"></i
                 ></a>
               </div>
               <div class="col social">
-                <a href="#" target="_blank"
+                <a href="https://github.com/mlsherman" target="_blank"
                   ><i class="fab fa-github fa-2x"></i
                 ></a>
               </div>
               <div class="col social">
-                <a href="#" target="_blank"
+                <a href="https://dribbble.com/mshermandev01" target="_blank"
                   ><i class="fab fa-codepen fa-2x"></i
                 ></a>
               </div>
